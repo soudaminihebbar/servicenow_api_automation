@@ -3,15 +3,10 @@ import org.testng.annotations.Test;
 
 import static org.hamcrest.Matchers.hasItem;
 
-public class GetIncidents {
+public class GetIncidents extends Base{
 
     @Test
     public void getIncidents() {
-
-        String sysId = "1c741bd70b2322007518478d83673af";
-
-        RestAssured.baseURI = "https://dev91173.service-now.com/api/now/table/incident";
-        RestAssured.authentication = RestAssured.basic("admin", "InstancePswd1");
 
 //        Response response = RestAssured
 //                .get();

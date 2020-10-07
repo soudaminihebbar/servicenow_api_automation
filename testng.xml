@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Incident">
+    <listeners>
+        <listener class-name="TestListener"/>
+    </listeners>
+    <test name="Incident">
+        <classes>
+            <class name="CreateIncident"/>
+            <class name="GetIncidents"/>
+        </classes>
+    </test>
+</suite>
